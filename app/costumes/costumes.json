@@ -1,0 +1,50 @@
+[
+  {
+    "id": "COS001",
+    "name": "Fluffy Bunny",
+    "category": "Cute",
+    "description": "Adorable rabbit outfit",
+    "price": 55.99,
+    "img": "fluffy-bunny.png"
+  },
+  {
+    "id": "COS002",
+    "name": "Inflatable T-Rex",
+    "category": "Cute",
+    "description": "Hilarious dinosaur costume",
+    "price": 30.99,
+    "img": "inflatable-trex.png"
+  },
+  {
+    "id": "COS003",
+    "name": "Pumpkin",
+    "category": "Cute",
+    "description": "Sweet pumpkin onesie",
+    "price": 70.99,
+    "img": "pumpkin.png"
+  },
+  {
+    "id": "COS004",
+    "name": "Banana Split",
+    "category": "Funny",
+    "description": "Go bananas this Halloween",
+    "price": 49.99,
+    "img": "banana-split.png"
+  },
+  {
+    "id": "COS005",
+    "name": "Zombie",
+    "category": "Scary",
+    "description": "Undead walker with torn clothing",
+    "price": 25.99,
+    "img": "zombie.png"
+  },
+  {
+    "id": "COS006",
+    "name": "Vampire",
+    "category": "Scary",
+    "description": "Classic bloodsucker with cape and fangs",
+    "price": 89.99,
+    "img": "vampire.png"
+  }
+]

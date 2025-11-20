@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Halloween Costume",
+    "image": "/home/costume.webp",
+    "alt": "Halloween Costume",
+    "description": "Browse through our collection of spooky, funny, and cute Halloween costumes. Find the perfect outfit for your Halloween celebration!",
+    "href": "/costumes"
+  },
+  {
+    "title": "Halloween Candy",
+    "image": "/home/candy.webp",
+    "alt": "Halloween Candy",
+    "description": "Discover all types of Halloween treats! From chocolate bars to gummy candies and sour delights, explore the sweetest part of Halloween.",
+    "href": "/candy"
+  },
+  {
+    "title": "Halloween Events",
+    "image": "/home/events.jpg",
+    "alt": "Halloween Events",
+    "description": "Plan your Halloween experience! Add, view, and organize Halloween events like parties, pumpkin carving, haunted houses, and more.",
+    "href": "/events"
+  }
+]

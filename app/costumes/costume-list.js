@@ -26,7 +26,7 @@ export default function CostumeList( {costumes, onAddCostume} ) {
 
     return (
         <div>
-            <div className="flex gap-10 justify-between items-center m-5">
+            <div className="flex gap-10 justify-between items-center mr-5 ml-5">
                 <div>
                     <h1 className="text-2xl text-orange-400 mt-5">Costume Collection</h1>
                     <p className="text-gray-400">Browse our spooky, funny, and cute costume collection</p>

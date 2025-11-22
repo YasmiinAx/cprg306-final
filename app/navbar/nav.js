@@ -11,6 +11,8 @@ export default function Nav() {
             <div className="flex gap-8 text-lg ml-auto mr-5">
                 <Link href="/">Home</Link>
                 <Link href="/costumes">Costumes</Link>
+                <Link href="/movies">Movies</Link>
+                <Link href="/events">Events</Link>
             </div>
         </div>
     );

@@ -1,9 +1,20 @@
 export default function Costume({ name, category, description, price, img }) {
+
+    const handleError = (e) => {
+        e.target.src = "/notfound.png";
+    }
+
     return (
         <div className="border-2 border-orange-400 rounded-2xl bg-gray-900 w-118 overflow-hidden">
 
             <div className="relative w-full h-80">
-                <img src={img} alt={name} className="w-full h-full object-cover"/>
+                <img 
+                    src={img} 
+                    alt={name} 
+                    className="w-full h-full object-cover"
+                    onError={handleError}
+                />
+
                 <span className="absolute top-2 right-2 border w-18 bg-black text-center text-red-500 px-2 py-1 text-md rounded-full">
                     {category}
                 </span>

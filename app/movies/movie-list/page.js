@@ -38,6 +38,7 @@ export default function MoviesListPage() {
                     <select
                         value={selectedCategory}
                         onChange={(e) => setSelectedCategory(e.target.value)}
+                        className="p-2 rounded-lg bg-gray-900"
                     >
                         <option>All</option>
                         <option>Action</option>

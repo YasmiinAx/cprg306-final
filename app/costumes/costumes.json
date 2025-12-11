@@ -1,0 +1,50 @@
+[
+  {
+    "id": "COS001",
+    "name": "Fluffy Bunny",
+    "category": "Cute",
+    "description": "Adorable rabbit outfit",
+    "price": 55.99,
+    "img": "https://images.halloweencostumes.ca/products/35498/1-1/toddler-open-face-white-bunny-costume.jpg"
+  },
+  {
+    "id": "COS002",
+    "name": "Inflatable T-Rex",
+    "category": "Cute",
+    "description": "Hilarious dinosaur costume",
+    "price": 30.99,
+    "img": "https://i5.walmartimages.com/asr/df930702-2e9f-423d-b1bc-24bf0b63f831.843c0ee41c21c3205f3bf6bdf7799b62.png?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+  },
+  {
+    "id": "COS003",
+    "name": "Pumpkin",
+    "category": "Cute",
+    "description": "Sweet pumpkin onesie",
+    "price": 70.99,
+    "img": "https://m.media-amazon.com/images/I/81j8y7SR0rL._AC_UY1000_.jpg"
+  },
+  {
+    "id": "COS004",
+    "name": "Banana Split",
+    "category": "Funny",
+    "description": "Go bananas this Halloween",
+    "price": 49.99,
+    "img": "https://media1.popsugar-assets.com/files/thumbor/6zreFZ20IwV7jpCjAkfo_-rKeWs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/08/18/173/n/1922441/addurlncZBzg/i/Banana-Split.jpg"
+  },
+  {
+    "id": "COS005",
+    "name": "Zombie",
+    "category": "Scary",
+    "description": "Undead walker with torn clothing",
+    "price": 25.99,
+    "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-143918974-68a4d55f965d2.jpg?crop=0.656xw:0.985xh;0.150xw,0&resize=640:*"
+  },
+  {
+    "id": "COS006",
+    "name": "Vampire",
+    "category": "Scary",
+    "description": "Classic bloodsucker with cape and fangs",
+    "price": 89.99,
+    "img": "https://hips.hearstapps.com/hmg-prod/images/diy-vampitre-makeup-1565565869.jpg?crop=0.453xw:1.00xh;0.124xw,0"
+  }
+]

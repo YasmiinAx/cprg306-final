@@ -1,5 +1,5 @@
 const TMDB_KEY = "af1b76109560756a2450b61eff16e738";
-const OMDB_KEY = "1ea1cb4c"; // replace with your OMDb key
+const OMDB_KEY = "1ea1cb4c"; 
 
 // TMDB = ACTION ----------------------------------------------------------------
 async function fetchAction() {

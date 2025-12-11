@@ -90,14 +90,14 @@ export default function NewCostume( { onAddCostume, onCancel } ) {
             <div className="flex justify-end gap-3 mt-4">
                 <button
                     type="button"
-                    className="border border-red-500 text-white p-2 w-30 rounded-lg  hover:bg-red-500 hover:text-white transition"
+                    className="text-white p-2 w-30 rounded-lg bg-red-600 hover:bg-red-800"
                     onClick={onCancel}
                 >
                     Cancel
                 </button>
                 <button
                     type="submit"
-                    className="bg-orange-400 border border-orange-400 w-50 p-2 rounded-lg  hover:bg-black hover:text-orange-400 transition"
+                    className="bg-orange-400 w-50 p-2 rounded-lg hover:bg-orange-800"
                 >
                     Add Costume
                 </button>

@@ -33,7 +33,7 @@ export default function CostumeList( {costumes, onAddCostume} ) {
                 </div>
                 <button
                     onClick={() => setShowAddForm(true)}
-                    className="bg-orange-400 border border-orange-400 text-black p-2 pl-4 pr-4 rounded-lg hover:bg-gray-900 hover:text-orange-400 transition"
+                    className="bg-orange-400 text-white p-2 pl-4 pr-4 rounded-lg hover:bg-orange-800"
                 >
                     + Add Costume
                 </button>

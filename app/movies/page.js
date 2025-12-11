@@ -15,7 +15,7 @@ const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
 
             {!user && (
                 <div className="mt-20 text-center">
-                    <h1 className="text-3xl text-white mt-40">Access Your Events — Sign in With GitHub!</h1> 
+                    <h1 className="text-3xl text-white mt-40">Access All Movies — Sign in With GitHub!</h1> 
                     <button 
                         className="text-2xl w-90 h-12 bg-white text-black hover:bg-gray-200 hover:cursor-pointer rounded-md block mx-auto mt-10"
                         onClick={gitHubSignIn}>

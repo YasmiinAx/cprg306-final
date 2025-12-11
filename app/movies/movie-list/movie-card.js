@@ -14,7 +14,7 @@ export default function MovieCard({ movie }) {
                     className="rounded-lg object-cover"
                 />
                 
-                <span className="absolute top-2 right-2 border w-18 bg-black text-center text-red-500 px-2 py-1 text-md rounded-full">
+                <span className="absolute top-2 right-2 border w-22 bg-black text-center text-red-500 px-2 py-1 text-md rounded-full">
                     {movie.category}
                 </span>
             </div>

@@ -26,7 +26,6 @@ body {
   min-height: 100vh;
 }
 
-/* Fix dropdown text colors */
 select {
   color: white !important;
   background-color: #111827 !important;

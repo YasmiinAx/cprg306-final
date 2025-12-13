@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function MovieCard({ movie }) {
     return (
-        <div className="bg-[#0d1117] border border-orange-500 rounded-xl overflow-hidden shadow-lg hover:scale-[1.03] transition-transform p-4">
+        <div className="bg-[#0d1117] border border-orange-500 rounded-xl overflow-hidden shadow-lg hover:scale-[1.03] transition-transform p-4 m-2">
         
             <div className="relative w-full h-60">
                 <Image

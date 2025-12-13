@@ -3,38 +3,45 @@
 import Event from "./event";
 import { useState } from "react";
 
-export default function EventList( {events} ) {
+export default function EventList({ events }) {
     const [sortBy, setSortBy] = useState("title");
     let eventsCopy = [...events];
-    
-    if (sortBy === "title") 
-    {
+
+    if (sortBy === "title") {
         eventsCopy.sort((a, b) => a.title.localeCompare(b.title));
     }
-    else if (sortBy === "category")
-    {
+    else if (sortBy === "category") {
         eventsCopy.sort((a, b) => a.category.localeCompare(b.category));
     }
-        
+
     return (
         <div>
-            <div className="flex mt-2 gap-4 pb-5 items-center">
-                <h2 className="text-white text-lg pt-1 font-medium">
-                    Sort by:
-                </h2>
-                <button onClick={() => setSortBy("title")} className={`rounded-md h-7 w-14
-                    ${sortBy === "title" ? "bg-orange-400 text-white" : "bg-gray-800"}`}>
-                    Title
-                </button>
-                <button onClick={() => setSortBy("category")} className={`rounded-md h-7 w-22
-                    ${sortBy === "category" ? "bg-orange-400 text-white" : "bg-gray-800"}`}>
-                    Category 
-                </button>
+            <div>
+                <h1 className="text-2xl text-orange-400">Halloween Events & Activities</h1>
+                <p className="text-gray-400">
+                    Plan and organize your Halloween celebrations
+                </p>
+            </div>
+
+            <div className="flex gap-80 border border-orange-400 p-4 rounded-xl mt-4 mb-5 bg-gray-900">
+                <div className="flex gap-5 justify-center items-center">
+                    <label className="text-gray-400" htmlFor="sort">
+                        Sort By:
+                    </label>
+                    <select
+                        value={sortBy}
+                        onChange={(e) => setSortBy(e.target.value)}
+                        className="p-2 rounded-lg bg-gray-900"
+                    >
+                        <option value="title">Title</option>
+                        <option value="category">Category</option>
+                    </select>
+                </div>
             </div>
 
             <ul className="grid gap-2 grid-cols-2">
                 {eventsCopy.map((event) => (
-                    <Event 
+                    <Event
                         key={event.id}
                         id={event.id}
                         title={event.title}
@@ -46,6 +53,6 @@ export default function EventList( {events} ) {
                     />
                 ))}
             </ul>
-        </div>  
+        </div>
     );
 }

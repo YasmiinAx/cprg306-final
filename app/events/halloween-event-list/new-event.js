@@ -41,7 +41,7 @@ export default function NewEvent( {onAddEvent} ) {
     };
 
     return (
-        <form onSubmit ={handleSubmit} className="bg-gray-900 flex justify-center items-center flex-col rounded-lg w-120 h-80 p-5 mt-2">
+        <form onSubmit ={handleSubmit} className="bg-gray-900 flex justify-center items-center flex-col rounded-lg w-120 h-80 p-5 mt-18">
             
             <div className="flex justify-center gap-2">
                 <input 

@@ -50,7 +50,7 @@ export default function MoviesListPage() {
             </div>
             
             {/* MOVIE CARDS */}
-            <div className="grid grid-cols-4 gap-5 pb-20">
+            <div className="grid grid-cols-4 gap-5 pb-10">
                 {filteredMovies.map((movie) => (
                     <MovieCard key={movie.id} movie={movie} />
                 ))}

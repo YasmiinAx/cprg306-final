@@ -48,12 +48,8 @@ export default function Page() {
             href="/events">
             Go Back
         </Link>
-
-        <h1 className="text-5xl -mt-8 text-center">
-            Halloween Events
-        </h1>
         
-        <div className="flex justify-center mt-5 gap-10">
+        <div className="flex justify-center mt-5 mb-10 gap-10">
                 <NewEvent onAddEvent={handleAddEvent} />
                 <EventList events={events} />
         </div>
